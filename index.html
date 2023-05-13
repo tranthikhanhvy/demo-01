@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Form Example</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+   </head>
+   <body>
+      <div class="container-fluid mt-3">
+         <h2>Survey Form For Student</h2>
+
+         <form>
+            <!-- Vertical -->
+            <div class="form-group">
+               <label for="myName">Email</label>
+               <input type="name" id = "myName" class="form-control" placeholder="Enter your name">
+               <label for="myEmail">Email</label>
+               <input type="email" id = "myEmail" class="form-control" placeholder="Enter your email">
+               <label for="myAge">Age</label>
+               <input type="age" id="myAge" class="form-control" placeholder="Enter your age">
+               <label for="myselect">which option best dercribes you?</label> <br>
+                <select name="Student" id="option">
+                    <option value="volvo">Student</option>
+                    <option value="saab">Teacher</option>
+                    <option value="mercedes">Parent</option> 
+                </select> <br> 
+                <label for="checkbox">Languages and Frameworks known (Check all that apply)</label> <br>
+                <form action="/action_page.php">
+                  <input type="checkbox" id="Languages1" name="Languages" value="C">
+                  <label for="Languages1"> C </label><br>
+                  <input type="checkbox" id="Languages2" name="Languages" value="C">
+                  <label for="Languages2"> C++ </label><br>
+                  <input type="checkbox" id="Languages3" name="Languages" value="C">
+                  <label for="Languages3"> C# </label><br>
+                  <input type="checkbox" id="Languages4" name="Languages" value="C">
+                  <label for="Languages4"> Java </label><br>
+                  <input type="checkbox" id="Languages5" name="Languages" value="C">
+                  <label for="Languages5"> Python </label><br>
+                  <input type="checkbox" id="Languages6" name="Languages" value="C">
+                  <label for="Languages6"> JavaScript </label><br>
+                  <input type="checkbox" id="Languages7" name="Languages" value="C">
+                  <label for="Languages7"> React </label><br>
+                  <input type="checkbox" id="Languages8" name="Languages" value="C">
+                  <label for="Languages8"> Angular </label><br>                  
+                  <input type="checkbox" id="Languages9" name="Languages" value="C">
+                  <label for="Languages9"> Django </label><br>
+                  <input type="checkbox" id="Languages9" name="Languages" value="C">
+                  <label for="Languages10"> Spring </label><br>
+                </form>
+               
+               <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+         </form>
+         
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   </body>
+</html>
